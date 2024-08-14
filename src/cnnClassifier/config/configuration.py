@@ -1,8 +1,9 @@
 from cnnClassifier.constants import CONFIG_FILE_PATH, PARAMS_FILE_PATH
 from cnnClassifier.utils.common import read_yaml, create_directories
 from pathlib import Path
-from cnnClassifier.entity.config_entity import (DataIngestionConfig, PrepareBaseModelConfig, TrainningConfig)
+from cnnClassifier.entity.config_entity import (DataIngestionConfig, PrepareBaseModelConfig, TrainningConfig, EvaluationConfig)
 import os
+
 
 
 class ConfigurationManager:
@@ -68,4 +69,16 @@ class ConfigurationManager:
         )
 
         return training_config
+    
+    def get_evaluation_config(self) -> EvaluationConfig:
+        eval_config = EvaluationConfig(
+                path_of_model="artifacts/training/model.h5",
+                training_data="artifacts/data_ingestion/data/train",
+                mlflow_uri="https://dagshub.com/surajacharya62/chest_ct_scan_classifier_with_mlops_dvc.mlflow",
+                all_params=self.params,
+                params_image_size=self.params.IMAGE_SIZE,
+                params_batch_size=self.params.BATCH_SIZE
+          )                 
+
+        return eval_config
     
