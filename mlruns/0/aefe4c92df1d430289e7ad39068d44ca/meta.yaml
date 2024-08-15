@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Oslo/OsloMet/Fourth%20semester/detectionofballotpaper_with_mlops/mlruns/0/aefe4c92df1d430289e7ad39068d44ca/artifacts
+end_time: 1723721893579
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aefe4c92df1d430289e7ad39068d44ca
+run_name: sedate-tern-271
+run_uuid: aefe4c92df1d430289e7ad39068d44ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723721885121
+status: 3
+tags: []
+user_id: acer
