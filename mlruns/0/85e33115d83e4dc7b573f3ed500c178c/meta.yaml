@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Oslo/OsloMet/Fourth%20semester/detectionofballotpaper_with_mlops/mlruns/0/85e33115d83e4dc7b573f3ed500c178c/artifacts
+end_time: 1723716996175
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 85e33115d83e4dc7b573f3ed500c178c
+run_name: selective-trout-198
+run_uuid: 85e33115d83e4dc7b573f3ed500c178c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723716982931
+status: 3
+tags: []
+user_id: acer

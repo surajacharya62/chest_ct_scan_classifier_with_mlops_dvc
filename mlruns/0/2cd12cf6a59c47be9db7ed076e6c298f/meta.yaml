@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Oslo/OsloMet/Fourth%20semester/detectionofballotpaper_with_mlops/mlruns/0/2cd12cf6a59c47be9db7ed076e6c298f/artifacts
+end_time: 1723718807171
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2cd12cf6a59c47be9db7ed076e6c298f
+run_name: selective-shrike-420
+run_uuid: 2cd12cf6a59c47be9db7ed076e6c298f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723718796030
+status: 3
+tags: []
+user_id: acer

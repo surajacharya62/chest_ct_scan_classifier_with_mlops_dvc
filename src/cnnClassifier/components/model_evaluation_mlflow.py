@@ -8,6 +8,7 @@ import mlflow.keras
 from urllib.parse import urlparse
 from cnnClassifier.config.configuration import EvaluationConfig
 from cnnClassifier.utils.common import save_json
+from pathlib import Path
 
 
 class Evaluation:
@@ -46,20 +47,22 @@ class Evaluation:
     def evaluation(self):
           self.model = self.load_model(self.config.path_of_model)
           self._valid_generator()
-          self.score = model.evaluate(self.valid_generator)
+          self.score = self.model.evaluate(self.valid_generator)
           self.save_score()
     
 
     def save_score(self):
-          scores = {"score": self.score[0],"accuracy":self.score[1]}
-          save_json(path=Path("scores.json"), data=scores)
+        scores = {"score": self.score[0],"accuracy":self.score[1]}
+        save_json(path=Path("scores.json"), data=scores)
 
     
     def log_into_mlflow(self):
+        
         mlflow.set_registry_uri(self.config.mlflow_uri)
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
         
         with mlflow.start_run():
+            print("URI------------------------------------")
             mlflow.log_params(self.config.all_params)
             mlflow.log_metrics(
                 {"loss": self.score[0], "accuracy": self.score[1]}

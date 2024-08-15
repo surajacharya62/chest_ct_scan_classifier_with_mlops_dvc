@@ -11,7 +11,7 @@ class EvaluationPipeline:
         pass
 
     def main(self):
-        config = ConfigurationManager
+        config = ConfigurationManager()
         eval_config = config.get_evaluation_config()
         evaluation = Evaluation(eval_config)
         evaluation.evaluation()
