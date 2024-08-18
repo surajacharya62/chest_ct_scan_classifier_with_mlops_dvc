@@ -12,7 +12,7 @@ try:
     logger.info(f">>-->>> stage {STAGE_NAME} started <---<")
     obj = DataIngestionTrainingPipeline()
     obj.main()
-    logger.info(f">>--->>>> stage {STAGE_NAME} completed <<---<<")
+    logger.info(f">>--->>>> stage {STAGE_NAME} completed <<---<< \n\n")
 
 except Exception as e:
     logger.exception(e)
@@ -40,7 +40,7 @@ try:
     logger.info(f">> Stage {STAGE_NAME} started <<--<<")
     obj = ModelTrainingPipeline()
     obj.main()
-    logger.info(f">>> stage {STAGE_NAME} completed <<<<")
+    logger.info(f">>> stage {STAGE_NAME} completed <<<< \n\n")
 
 except Exception as e:
     logger.exception(e)
@@ -53,7 +53,7 @@ try:
     logger.info(f">>> stage {STAGE_NAME} started <<--<<")
     obj = EvaluationPipeline()
     obj.main()
-    logger.info(f">>> stage {STAGE_NAME} completed <<--<<")
+    logger.info(f">>> stage {STAGE_NAME} completed <<--<<\n\n")
 
 except Exception as e:
     logger.exception(e)

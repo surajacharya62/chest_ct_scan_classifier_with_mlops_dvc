@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Oslo/OsloMet/Fourth%20semester/detectionofballotpaper_with_mlops/mlruns/0/92922b23e0a6447788948d28adca6270/artifacts
+end_time: 1723728399736
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 92922b23e0a6447788948d28adca6270
+run_name: enchanting-mink-42
+run_uuid: 92922b23e0a6447788948d28adca6270
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723728399690
+status: 3
+tags: []
+user_id: acer

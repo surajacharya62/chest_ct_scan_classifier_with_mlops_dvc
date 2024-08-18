@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Oslo/OsloMet/Fourth%20semester/detectionofballotpaper_with_mlops/mlruns/0/4dedd41b6e7849eab532f5c3c591652e/artifacts
+end_time: 1723747999292
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4dedd41b6e7849eab532f5c3c591652e
+run_name: calm-colt-996
+run_uuid: 4dedd41b6e7849eab532f5c3c591652e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723747979709
+status: 3
+tags: []
+user_id: acer

@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Oslo/OsloMet/Fourth%20semester/detectionofballotpaper_with_mlops/mlruns/0/03f9d12ebc9b4d07bbe1158a2ac9d750/artifacts
+end_time: 1723725073172
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 03f9d12ebc9b4d07bbe1158a2ac9d750
+run_name: adorable-pug-309
+run_uuid: 03f9d12ebc9b4d07bbe1158a2ac9d750
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723725064565
+status: 3
+tags: []
+user_id: acer

@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Oslo/OsloMet/Fourth%20semester/detectionofballotpaper_with_mlops/mlruns/0/ccd55ed061154847b8b66b357720e136/artifacts
+end_time: 1723727285160
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ccd55ed061154847b8b66b357720e136
+run_name: enchanting-sow-464
+run_uuid: ccd55ed061154847b8b66b357720e136
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723727275636
+status: 3
+tags: []
+user_id: acer

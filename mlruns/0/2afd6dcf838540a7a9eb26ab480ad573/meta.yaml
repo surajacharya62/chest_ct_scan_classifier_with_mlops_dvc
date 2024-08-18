@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Oslo/OsloMet/Fourth%20semester/detectionofballotpaper_with_mlops/mlruns/0/2afd6dcf838540a7a9eb26ab480ad573/artifacts
+end_time: 1723728936145
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2afd6dcf838540a7a9eb26ab480ad573
+run_name: agreeable-shrew-394
+run_uuid: 2afd6dcf838540a7a9eb26ab480ad573
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723728936098
+status: 4
+tags: []
+user_id: acer

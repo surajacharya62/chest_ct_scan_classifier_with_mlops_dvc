@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Oslo/OsloMet/Fourth%20semester/detectionofballotpaper_with_mlops/mlruns/0/571646e79de448e7968375d831ea5a81/artifacts
+end_time: 1723734432134
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 571646e79de448e7968375d831ea5a81
+run_name: valuable-grouse-2
+run_uuid: 571646e79de448e7968375d831ea5a81
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723734411609
+status: 3
+tags: []
+user_id: acer

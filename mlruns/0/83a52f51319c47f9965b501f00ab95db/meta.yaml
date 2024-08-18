@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Oslo/OsloMet/Fourth%20semester/detectionofballotpaper_with_mlops/mlruns/0/83a52f51319c47f9965b501f00ab95db/artifacts
+end_time: 1723734622894
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 83a52f51319c47f9965b501f00ab95db
+run_name: rambunctious-asp-371
+run_uuid: 83a52f51319c47f9965b501f00ab95db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723734596001
+status: 3
+tags: []
+user_id: acer

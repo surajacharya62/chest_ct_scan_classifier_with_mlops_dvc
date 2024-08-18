@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Oslo/OsloMet/Fourth%20semester/detectionofballotpaper_with_mlops/mlruns/0/242da8fe0eb249cbb5b3d6860995a48e/artifacts
+end_time: 1723722143544
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 242da8fe0eb249cbb5b3d6860995a48e
+run_name: amusing-trout-203
+run_uuid: 242da8fe0eb249cbb5b3d6860995a48e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723722134812
+status: 3
+tags: []
+user_id: acer

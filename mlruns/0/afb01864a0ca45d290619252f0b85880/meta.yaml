@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Oslo/OsloMet/Fourth%20semester/detectionofballotpaper_with_mlops/mlruns/0/afb01864a0ca45d290619252f0b85880/artifacts
+end_time: 1723725222607
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: afb01864a0ca45d290619252f0b85880
+run_name: bedecked-asp-24
+run_uuid: afb01864a0ca45d290619252f0b85880
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723725213185
+status: 3
+tags: []
+user_id: acer

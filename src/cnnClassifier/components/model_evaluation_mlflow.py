@@ -59,16 +59,19 @@ class Evaluation:
     def log_into_mlflow(self):
         
         mlflow.set_registry_uri(self.config.mlflow_uri)
+        print(self.config.mlflow_uri, "uri-----------------------++++++++++++++++++==")
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
+        print(tracking_url_type_store, "tracking---------99999999999999999")
         
         with mlflow.start_run():
-            print("URI------------------------------------")
+            
             mlflow.log_params(self.config.all_params)
             mlflow.log_metrics(
                 {"loss": self.score[0], "accuracy": self.score[1]}
             )
             # Model registry does not work with file store
             if tracking_url_type_store != "file":
+                print("URI------------------------------------")
 
                 # Register the model
                 # There are other ways to use the Model Registry, which depends on the use case,

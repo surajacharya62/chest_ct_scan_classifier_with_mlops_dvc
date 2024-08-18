@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Oslo/OsloMet/Fourth%20semester/detectionofballotpaper_with_mlops/mlruns/0/6ea917fdfa6142ff8873ecdde95fe1b4/artifacts
+end_time: 1723735380275
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6ea917fdfa6142ff8873ecdde95fe1b4
+run_name: rare-foal-201
+run_uuid: 6ea917fdfa6142ff8873ecdde95fe1b4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723735360327
+status: 3
+tags: []
+user_id: acer
