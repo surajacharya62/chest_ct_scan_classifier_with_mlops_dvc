@@ -1,6 +1,6 @@
 from cnnClassifier.config.configuration import ConfigurationManager
 from cnnClassifier.entity.config_entity import TrainningConfig
-from cnnClassifier.components.model_trainer import Trainning
+from cnnClassifier.components.model_training import Trainning
 from cnnClassifier import logger
 
 
